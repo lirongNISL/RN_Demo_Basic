@@ -9,7 +9,7 @@ import { createDrawerNavigator} from '@react-navigation/drawer'; ;// 最常见�
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';// 最常见的导航样式可能是基于选项卡的导航，它可以是屏幕底部的标题，也可以是标题下方的顶部
 // import Icon from 'react-native-vector-icons/Ionicons'; //引入图标
 
-
+var Banner = require('./app/components/Banner2');
 
 // 首页 ，点击按钮跳转页面
 function HomeScreen({ navigation }) {
@@ -154,6 +154,19 @@ function BannerScreen(){
     <View>
         <Text style={styles.title}>Banner Screen</Text>
         {/* <PageThree/> */}
+        <View style={{flex: 1}}>
+                <Banner/>
+                {/*占满屏幕剩余空间  父View必须设置 flex的值（充满屏幕）*/}
+                <View style={{
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    flex: 1,
+                }}>
+                    <Text>
+                        我是一个会自动轮播的Banner
+                    </Text>
+                </View>
+          </View>
     </View>
    
   )
