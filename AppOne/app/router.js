@@ -7,9 +7,10 @@ import ButtonBasics from './components/ButtonBasics';
 import FlexDirectionBasics from './components/FlexDirectionBasics';
 import FlatListTest from './components/FlatListTest';
 import ScrollViewTest from './components/ScrollViewTest';
+import Banner from './components/Banner2';
 // import Banner from './components/Banner';
 // import PageThree from './components/PageThree';
-export {ButtonBasics,FlexDirectionBasics,FlatListTest,ScrollViewTest};
+export {ButtonBasics,FlexDirectionBasics,FlatListTest,ScrollViewTest,Banner};
 
 
 // import * as React from 'react';

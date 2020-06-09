@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {ButtonBasics,FlexDirectionBasics,FlatListTest,ScrollViewTest} from './app/router';   //引入自定义组件
+import {ButtonBasics,FlexDirectionBasics,FlatListTest,ScrollViewTest,Banner} from './app/router';   //引入自定义组件
 import 'react-native-gesture-handler';  //捕获手势
 import {Button, View, Text , TextInput, StyleSheet,Platform,TouchableHighlight,Alert} from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'; //安全区域
@@ -9,7 +9,7 @@ import { createDrawerNavigator} from '@react-navigation/drawer'; ;// 最常见�
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';// 最常见的导航样式可能是基于选项卡的导航，它可以是屏幕底部的标题，也可以是标题下方的顶部
 // import Icon from 'react-native-vector-icons/Ionicons'; //引入图标
 
-var Banner = require('./app/components/Banner2');
+
 
 // 首页 ，点击按钮跳转页面
 function HomeScreen({ navigation }) {
@@ -151,9 +151,9 @@ function ButtonBasicsScreen({ navigation }) {
 // Banner示例页面
 function BannerScreen(){
   return(
-    <View>
-        <Text style={styles.title}>Banner Screen</Text>
-        {/* <PageThree/> */}
+    // <View>
+        // {/* <Text style={styles.title}>Banner Screen</Text> */}
+        // {/* <PageThree/> */}
         <View style={{flex: 1}}>
                 <Banner/>
                 {/*占满屏幕剩余空间  父View必须设置 flex的值（充满屏幕）*/}
@@ -167,7 +167,7 @@ function BannerScreen(){
                     </Text>
                 </View>
           </View>
-    </View>
+    // </View>
    
   )
 }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Image, ScrollView, StyleSheet, Text, View,} from 'react-native';
-import Dimensions from 'Dimensions';
+import {Image, ScrollView, StyleSheet, Text, View, Dimensions} from 'react-native';
+
 
 var banner = [
     "http://a.hiphotos.baidu.com/image/pic/item/ac4bd11373f08202e2518d6d45fbfbedaa641ba4.jpg",
@@ -9,9 +9,9 @@ var banner = [
     "http://b.hiphotos.baidu.com/image/pic/item/58ee3d6d55fbb2fb12adba45414a20a44723dce7.jpg",
 ];
 //屏幕信息
-var dimensions = require('Dimensions');
+
 //获取屏幕的宽度和高度
-var {width} = dimensions.get('window');
+var {width} = Dimensions.get('window');
 
 class Banner extends Component {
 
