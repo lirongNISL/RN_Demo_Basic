@@ -150,10 +150,8 @@ function ButtonBasicsScreen({ navigation }) {
 }
 // Banner示例页面
 function BannerScreen(){
-  return(
-    // <View>
-        // {/* <Text style={styles.title}>Banner Screen</Text> */}
-        // {/* <PageThree/> */}
+  return(    
+    <SafeAreaView>
         <View style={{flex: 1}}>
                 <Banner/>
                 {/*占满屏幕剩余空间  父View必须设置 flex的值（充满屏幕）*/}
@@ -162,16 +160,16 @@ function BannerScreen(){
                     alignItems: 'center',
                     flex: 1,
                 }}>
-                    <Text>
-                        我是一个会自动轮播的Banner
-                    </Text>
-                </View>
-          </View>
-    // </View>
-   
+                  <Text style={styles.title}>Banner Screen</Text>
+                  <Text>我是一个会自动轮播的Banner</Text>
+                </View>                
+      </View>  
+    </SafeAreaView> 
   )
 }
 //  
+
+// "animated-lazy-image": "^1.0.1",
 // function IconWithBadge({ name, badgeCount, color, size }) {
 //   return (
 //     <View style={{ width: 24, height: 24, margin: 5 }}>
