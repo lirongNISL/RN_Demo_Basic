@@ -1417,13 +1417,6 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-animated-lazy-image@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/animated-lazy-image/download/animated-lazy-image-1.0.1.tgz#c10801f597452c80e8ff1f88045f8f93f027538a"
-  integrity sha1-wQgB9ZdFLIDo/x+IBF+Pk/AnU4o=
-  dependencies:
-    prop-types "^15.6.2"
-
 anser@^1.4.9:
   version "1.4.9"
   resolved "https://registry.npm.taobao.org/anser/download/anser-1.4.9.tgz#1f85423a5dcf8da4631a341665ff675b96845760"
@@ -4491,9 +4484,9 @@ lodash.throttle@^4.1.1:
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz?cache=0&sync_timestamp=1571657272199&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -5641,10 +5634,10 @@ react-native-reanimated@^1.9.0:
   dependencies:
     fbjs "^1.0.0"
 
-react-native-safe-area-context@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/react-native-safe-area-context/download/react-native-safe-area-context-3.0.2.tgz#95dd7e56bc89bcc4f3f7bb5fada30c98420328b2"
-  integrity sha1-ld1+VryJvMTz97tfraMMmEIDKLI=
+react-native-safe-area-context@^3.0.5:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.1.1.tgz#9b04d1154766e6c1132030aca8f4b0336f561ccd"
+  integrity sha512-Iqb41OT5+QxFn0tpTbbHgz8+3VU/F9OH2fTeeoU7oZCzojOXQbC6sp6mN7BlsAoTKhngWoJLMcSosL58uRaLWQ==
 
 react-native-screens@^2.8.0:
   version "2.8.0"
