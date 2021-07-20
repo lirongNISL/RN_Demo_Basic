@@ -1417,13 +1417,6 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-animated-lazy-image@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/animated-lazy-image/download/animated-lazy-image-1.0.1.tgz#c10801f597452c80e8ff1f88045f8f93f027538a"
-  integrity sha1-wQgB9ZdFLIDo/x+IBF+Pk/AnU4o=
-  dependencies:
-    prop-types "^15.6.2"
-
 anser@^1.4.9:
   version "1.4.9"
   resolved "https://registry.npm.taobao.org/anser/download/anser-1.4.9.tgz#1f85423a5dcf8da4631a341665ff675b96845760"
@@ -5641,10 +5634,10 @@ react-native-reanimated@^1.9.0:
   dependencies:
     fbjs "^1.0.0"
 
-react-native-safe-area-context@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/react-native-safe-area-context/download/react-native-safe-area-context-3.0.2.tgz#95dd7e56bc89bcc4f3f7bb5fada30c98420328b2"
-  integrity sha1-ld1+VryJvMTz97tfraMMmEIDKLI=
+react-native-safe-area-context@^3.0.5:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.2.0.tgz#06113c6b208f982d68ab5c3cebd199ca93db6941"
+  integrity sha512-k2Nty4PwSnrg9HwrYeeE+EYqViYJoOFwEy9LxL5RIRfoqxAq/uQXNGwpUg2/u4gnKpBbEPa9eRh15KKMe/VHkA==
 
 react-native-screens@^2.8.0:
   version "2.8.0"
@@ -5660,10 +5653,10 @@ react-native-vector-icons@^6.6.0:
     prop-types "^15.6.2"
     yargs "^13.2.2"
 
-react-native@0.62.2:
-  version "0.62.2"
-  resolved "https://registry.npm.taobao.org/react-native/download/react-native-0.62.2.tgz?cache=0&sync_timestamp=1590714316039&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-native%2Fdownload%2Freact-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
-  integrity sha1-2DHhGjF4cFRJFC3xmnCsLKFrrRA=
+react-native@0.62.3:
+  version "0.62.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.3.tgz#9a2e96af3dedd0723c8657831eec4ed3c30f3299"
+  integrity sha512-b2/hDHDlO5Of2Zn1K5ZgvzOoUrvMEvlYU4miS9rcEBp5jK/9cRQn81HZ7NBmf4gzigGl8CxbSx1l10GUj1k8XQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^4.5.1"
